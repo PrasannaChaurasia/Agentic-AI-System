@@ -355,6 +355,53 @@ This project is based on documented patterns from OpenAI Agents, structured outp
 
 Full citation list: [docs/citations.md](docs/citations.md)
 
+## Creator And Contact
+
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/223046980?v=4" alt="PRASANNA CHAURASIA GitHub avatar" width="112" height="112">
+</p>
+
+<h3 align="center">Built by PRASANNA CHAURASIA</h3>
+
+<p align="center">
+  Founder-builder behind the Urban Matrix Agentic AI OS vision: architecture, BIM, AI design systems, automation, project delivery, and creative technical workflows.
+</p>
+
+<p align="center">
+  <a href="https://github.com/PrasannaChaurasia">
+    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-PrasannaChaurasia-111827?style=for-the-badge&logo=github">
+  </a>
+  <a href="mailto:prasanna.subx@gmail.com">
+    <img alt="Email" src="https://img.shields.io/badge/Email-prasanna.subx%40gmail.com-0f766e?style=for-the-badge&logo=gmail&logoColor=white">
+  </a>
+  <a href="https://github.com/PrasannaChaurasia/Agentic-AI-System">
+    <img alt="Repository" src="https://img.shields.io/badge/Repo-Agentic--AI--System-f59e0b?style=for-the-badge&logo=github">
+  </a>
+</p>
+
+### Work With This Project
+
+| Action | Link |
+| --- | --- |
+| View Creator Profile | [github.com/PrasannaChaurasia](https://github.com/PrasannaChaurasia) |
+| Contact | [prasanna.subx@gmail.com](mailto:prasanna.subx@gmail.com) |
+| Star This Repository | [Agentic-AI-System](https://github.com/PrasannaChaurasia/Agentic-AI-System) |
+| Study The Architecture | [docs/system_architecture.md](docs/system_architecture.md) |
+| Read The Recovery Plan | [docs/recovery.md](docs/recovery.md) |
+| Contribute Carefully | [docs/contributing.md](docs/contributing.md) |
+
+### Bottom CTA
+
+If this project is useful, star the repository, follow the creator, and use the roadmap to build the Urban Matrix Command Centre one controlled agent at a time.
+
+```text
+Next build target:
+Agent 00 — Master Orchestrator Agent
+
+Before implementation:
+Create the full Agent 00 professional draft, schema, workflow, permissions, dashboard page, tests, and recovery plan.
+```
+
 ## हिन्दी
 
 Urban Matrix Agentic AI OS एक hybrid cloud + local multi-agent command platform है, जो architecture, BIM, research, rendering, prompts, BOQ, portfolio boards और project delivery के लिए बनाया गया है।
