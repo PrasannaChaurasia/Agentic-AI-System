@@ -1,7 +1,7 @@
 # Urban Matrix Agentic AI OS
 
 <p align="center">
-  <img src="assets/urban-matrix-hero.svg" alt="Urban Matrix Agentic AI OS dashboard concept" width="100%">
+  <img src="assets/urban-matrix-command-centre-hero.png" alt="Urban Matrix Agentic AI OS command centre hero" width="100%">
 </p>
 
 <p align="center">
@@ -23,6 +23,15 @@
   <img alt="Mode" src="https://img.shields.io/badge/mode-cloud%20%2B%20local%20hybrid-64748b">
 </p>
 
+<p align="center">
+  <a href="#v01-working-build">Quick Start</a> |
+  <a href="#command-centre-vision">Command Centre</a> |
+  <a href="#specialist-agent-map">Agents</a> |
+  <a href="#product-roadmap">Roadmap</a> |
+  <a href="#safety-and-governance">Safety</a> |
+  <a href="#citations">Citations</a>
+</p>
+
 ## English
 
 Urban Matrix Agentic AI OS is the foundation for a professional design operations platform: one command centre, one master orchestrator, and a controlled team of specialist AI agents for architecture, BIM, site analysis, prompt generation, research, rendering, BOQ, portfolio boards, communication, code, deployment, and QA.
@@ -32,6 +41,60 @@ The current build proves the first working pattern:
 ```text
 Project brief -> Prompt Generator Agent -> structured JSON -> Markdown prompt package -> local output archive
 ```
+
+## Product Snapshot
+
+<table>
+  <tr>
+    <td><strong>Product</strong></td>
+    <td>Urban Matrix Agentic AI OS</td>
+  </tr>
+  <tr>
+    <td><strong>Dashboard Name</strong></td>
+    <td>Urban Matrix Command Centre</td>
+  </tr>
+  <tr>
+    <td><strong>Current Phase</strong></td>
+    <td>v0.1 local starter with Agent 01 implemented</td>
+  </tr>
+  <tr>
+    <td><strong>Design Domain</strong></td>
+    <td>Architecture, BIM, computational design, research, AI rendering, delivery operations</td>
+  </tr>
+  <tr>
+    <td><strong>Execution Model</strong></td>
+    <td>Cloud agents for always-on tasks, local workers for Revit, Rhino, Grasshopper, ComfyUI, and private folders</td>
+  </tr>
+  <tr>
+    <td><strong>Governance Model</strong></td>
+    <td>Human approval gates, structured outputs, action logs, recoverable task state</td>
+  </tr>
+</table>
+
+## Interface DNA
+
+The GitHub front page is shaped like a product landing page, but the actual system should feel like a serious design operations cockpit: dense enough for project work, calm enough for daily use, and visually tuned for architectural decision-making.
+
+| UI/UX Principle | Implementation Direction |
+| --- | --- |
+| First-screen clarity | Hero image, product definition, quick links, status badges |
+| Executive scanning | Snapshot table, agent map, roadmap, safety matrix |
+| Design-office realism | Project cards, approval queues, output library, local worker status |
+| Trust through structure | JSON schemas, citations, logs, recovery rules, contribution standards |
+| Visual rhythm | Hero image, Mermaid diagrams, compact tables, repo-native SVG system panel |
+| Future motion layer | Dashboard timeline animations, agent handoff traces, task graph transitions |
+
+<details>
+<summary><strong>Visual System Notes</strong></summary>
+
+- Charcoal command surfaces with off-white content panels.
+- Teal for active agents and successful system states.
+- Amber for review, queue, warning, and approval states.
+- Graph lines for agent handoff, memory retrieval, and workflow routing.
+- Architectural drawings, BIM previews, project boards, and model thumbnails as primary visual content.
+- Avoid generic chatbot styling; the interface should feel closer to an architecture studio control room.
+
+</details>
 
 ## Command Centre Vision
 
@@ -44,6 +107,33 @@ Project brief -> Prompt Generator Agent -> structured JSON -> Markdown prompt pa
 | Recent Outputs | Browse prompts, reports, boards, renders, code, and exports |
 | System Health | Monitor cloud worker, local worker, API usage, queue, and logs |
 | Quick Launch | Start Site Analysis, Prompt Generator, BOQ, Revit Check, Portfolio Board |
+
+## Dashboard Component Library
+
+| Component | Data It Shows | Design Notes |
+| --- | --- | --- |
+| Global Command Bar | user instruction, selected project, output type, deadline | Always visible, command-first, supports natural language and structured forms |
+| Project Cards | stage, deadline, completion, active agents, latest output, approval state | Compact cards with visual progress and risk chip |
+| Agent Status Rail | online, idle, running, blocked, offline | Uses color and short labels, never vague decorative indicators |
+| Approval Queue | risky actions waiting for review | Clear approve/reject/edit controls with reason and audit trail |
+| Task Timeline | Brief -> Research -> Site -> Concept -> Prompt -> QA -> Export | Shows handoffs, retries, blocked states, and current owner |
+| Output Library | Markdown, JSON, PDFs, boards, prompts, render workflows | Filter by project, agent, date, file type, and approval state |
+| System Health | cloud worker, local worker, API status, queue length | Operational panel for debugging and trust |
+| Logs Console | tool calls, inputs, outputs, errors, timestamps | Developer-grade detail hidden behind expandable panels |
+
+## Visual Reference
+
+The generated hero image is now stored in the repository and used at the top of this README:
+
+```text
+assets/urban-matrix-command-centre-hero.png
+```
+
+The earlier vector dashboard concept remains available as a lightweight, repo-native illustration:
+
+```text
+assets/urban-matrix-hero.svg
+```
 
 ## Agentic Architecture
 
@@ -60,6 +150,23 @@ flowchart TB
     Master --> A17["Agent 17: QA / Reviewer"]
     A17 --> Gate["Human Approval Gate"]
     Gate --> Output["Reports / Prompts / Boards / Logs / Files"]
+```
+
+## Operating System Layers
+
+```mermaid
+flowchart LR
+    Command["Command"] --> Plan["Plan"]
+    Plan --> Route["Route"]
+    Route --> Execute["Execute"]
+    Execute --> Review["Review"]
+    Review --> Approve["Approve"]
+    Approve --> Archive["Archive"]
+
+    Memory["Memory"] -.-> Plan
+    Tools["Tools / APIs / MCP"] -.-> Execute
+    Logs["Logs / Traces"] -.-> Review
+    Recovery["Recovery State"] -.-> Archive
 ```
 
 ## Specialist Agent Map
@@ -84,6 +191,24 @@ flowchart TB
 | 15 | GitHub / Code / Deployment | Repo, CI, deployment, README, and issue workflows | High |
 | 16 | AI Tool Intelligence | Tracks AI tools, APIs, MCP servers, pricing, and relevance | Medium |
 | 17 | QA / Reviewer | Checks schema, citations, hallucinations, missing fields, safety | Medium |
+
+## Agent Drafting Standard
+
+Before building each agent, Urban Matrix should create a complete agent draft. This keeps the OS controlled, testable, and safe.
+
+| Draft Section | What It Must Define |
+| --- | --- |
+| Identity | agent name, definition, purpose, owner layer |
+| Responsibilities | what the agent does and what it must refuse |
+| Inputs | required fields, optional fields, files, URLs, project context |
+| Outputs | JSON schema, Markdown format, files, dashboard state |
+| Tools | APIs, MCP servers, scripts, local workers, databases |
+| Memory | project memory, company style, vector knowledge, logs |
+| Risk | low, medium, high, critical actions |
+| Approval Gates | where human approval is mandatory |
+| UI Page | controls, tabs, preview panels, logs, settings, output history |
+| Tests | schema validation, failure cases, safe-action tests |
+| Recovery | task restart rules, saved checkpoints, error handling |
 
 ## v0.1 Working Build
 
@@ -123,6 +248,7 @@ Agentic AI System/
 ├── agents/
 │   └── prompt_generator_agent.py
 ├── assets/
+│   ├── urban-matrix-command-centre-hero.png
 │   └── urban-matrix-hero.svg
 ├── docs/
 │   ├── citations.md
@@ -156,6 +282,24 @@ Agentic AI System/
 | 6 | Local worker | Revit, Rhino, ComfyUI, and local folder tasks run when PC is on |
 | 7 | Advanced agents | BIM, ComfyUI, BOQ, Portfolio, Code, Reviewer system |
 
+## Build Sequence
+
+```mermaid
+gantt
+    title Urban Matrix Agentic AI OS Build Sequence
+    dateFormat  YYYY-MM-DD
+    section Foundation
+    Agent 01 Prompt Generator      :done, a1, 2026-05-03, 1d
+    Agent Drafting Framework       :active, draft, 2026-05-04, 2d
+    section Core OS
+    Agent 00 Master Orchestrator   :a0, after draft, 4d
+    Local Dashboard                :dash, after a0, 4d
+    section Expansion
+    Site Analysis Agent            :site, after dash, 3d
+    Research Agent                 :research, after site, 3d
+    QA Reviewer Agent              :qa, after research, 3d
+```
+
 ## Safety And Governance
 
 | Risk | Example | Rule |
@@ -186,6 +330,19 @@ Persistence is a first-class requirement, not an afterthought.
 
 More detail: [docs/recovery.md](docs/recovery.md)
 
+## Repository Front Page Strategy
+
+This README follows proven GitHub presentation patterns:
+
+- Strong hero visual at the top.
+- Clear one-line product promise.
+- Compact badges for phase, stack, safety, and mode.
+- Fast navigation links.
+- Scannable tables instead of long walls of text.
+- Mermaid diagrams for architecture, workflow, and roadmap.
+- Real output paths and quickstart commands.
+- Safety, recovery, contribution, and citation sections for trust.
+
 ## Contributing
 
 Contributions should improve the system without weakening safety. Good contribution areas include agents, skill files, dashboard UX, examples, tests, docs, and deployment workflows.
@@ -213,4 +370,3 @@ Urban Matrix Agentic AI OS est une plateforme hybride cloud + locale pour pilote
 ## العربية
 
 Urban Matrix Agentic AI OS هو نظام هجين بين السحابة والجهاز المحلي لإدارة وكلاء ذكاء اصطناعي متخصصين في العمارة وBIM والبحث والتصور والتكلفة والتسليم.
-
