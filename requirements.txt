@@ -1,0 +1,7 @@
+# v0.1 has no required external packages.
+# Future phases may add:
+# fastapi
+# uvicorn
+# pydantic
+# openai
+

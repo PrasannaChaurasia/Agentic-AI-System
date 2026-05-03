@@ -1,0 +1,15 @@
+{
+  "project_name": "Flux Pavilion",
+  "project_type": "futuristic AI-driven urban pavilion",
+  "location": "Manchester",
+  "design_intent": "a responsive civic pavilion that blends public gathering, digital craft, and climate-aware urban design",
+  "geometry": "fluid canopy, modular ribs, transparent envelope, stepped public plinth, integrated seating edges",
+  "site_context": "dense Manchester city-centre setting with pedestrian movement, tram lines, historic brick context, and rainy climate",
+  "materials": "brushed aluminium ribs, recycled glass, translucent ETFE, warm timber soffits, rain gardens, permeable stone paving",
+  "style": "cinematic architectural realism with high-detail materials and restrained futuristic language",
+  "output_type": "cinematic exterior concept render prompt",
+  "platform": "ComfyUI / Midjourney style prompt",
+  "camera_angle": "low wide-angle street view with a secondary aerial option",
+  "lighting": "overcast Manchester daylight with soft reflections, wet paving, and warm interior glow",
+  "references": "urban pavilion, parametric canopy, civic technology hub"
+}

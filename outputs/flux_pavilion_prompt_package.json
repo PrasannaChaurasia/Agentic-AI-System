@@ -1,0 +1,45 @@
+{
+  "agent": "Urban Matrix Prompt Generator Agent",
+  "version": "0.1.0",
+  "created_at": "2026-05-03T10:04:37Z",
+  "input": {
+    "project_name": "Flux Pavilion",
+    "project_type": "futuristic AI-driven urban pavilion",
+    "location": "Manchester",
+    "design_intent": "a responsive civic pavilion that blends public gathering, digital craft, and climate-aware urban design",
+    "geometry": "fluid canopy, modular ribs, transparent envelope, stepped public plinth, integrated seating edges",
+    "site_context": "dense Manchester city-centre setting with pedestrian movement, tram lines, historic brick context, and rainy climate",
+    "materials": "brushed aluminium ribs, recycled glass, translucent ETFE, warm timber soffits, rain gardens, permeable stone paving",
+    "style": "cinematic architectural realism with high-detail materials and restrained futuristic language",
+    "output_type": "cinematic exterior concept render prompt",
+    "platform": "ComfyUI / Midjourney style prompt",
+    "camera_angle": "low wide-angle street view with a secondary aerial option",
+    "lighting": "overcast Manchester daylight with soft reflections, wet paving, and warm interior glow",
+    "references": "urban pavilion, parametric canopy, civic technology hub"
+  },
+  "project_summary": "Flux Pavilion is a futuristic AI-driven urban pavilion in Manchester, focused on a responsive civic pavilion that blends public gathering, digital craft, and climate-aware urban design.",
+  "structured_prompt": {
+    "role": "You are an architectural visualisation director for Urban Matrix.",
+    "task": "Create a high-quality cinematic exterior concept render prompt.",
+    "context": "Flux Pavilion is a futuristic AI-driven urban pavilion in Manchester, focused on a responsive civic pavilion that blends public gathering, digital craft, and climate-aware urban design.",
+    "geometry": "fluid canopy, modular ribs, transparent envelope, stepped public plinth, integrated seating edges",
+    "logic": "Prioritise spatial clarity, urban response, material credibility, and cinematic composition.",
+    "site": "dense Manchester city-centre setting with pedestrian movement, tram lines, historic brick context, and rainy climate",
+    "material": "brushed aluminium ribs, recycled glass, translucent ETFE, warm timber soffits, rain gardens, permeable stone paving",
+    "output": "cinematic exterior concept render prompt",
+    "constraints": "Avoid impossible structure, distorted scale, cluttered signage, text artifacts, and generic sci-fi styling.",
+    "refinement": "Make the result feel like a competition-grade architecture visual with clear foreground, middle ground, and background.",
+    "style": "cinematic architectural realism with high-detail materials and restrained futuristic language",
+    "prompt_engineering": "Use precise nouns, controlled adjectives, camera language, lighting cues, and consistency locks."
+  },
+  "negative_prompt": "low resolution, blurry, warped geometry, impossible columns, broken perspective, overexposed sky, messy people, illegible text, duplicated objects, cartoon render, generic sci-fi, poor materials, distorted facade, unrealistic shadows",
+  "camera_direction": "low wide-angle street view with a secondary aerial option",
+  "lighting_direction": "overcast Manchester daylight with soft reflections, wet paving, and warm interior glow",
+  "consistency_lock": "Keep the project identity consistent: Flux Pavilion, Manchester, cinematic architectural realism with high-detail materials and restrained futuristic language.",
+  "platform_version": "ComfyUI / Midjourney style prompt",
+  "next_steps": [
+    "Review prompt package for project accuracy.",
+    "Send to QA / Reviewer Agent before production use.",
+    "Create render variations or ComfyUI workflow JSON in the next phase."
+  ]
+}
